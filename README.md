@@ -3,7 +3,9 @@
 ## Prerequisites
 ### Install Homebrew
 Source: https://brew.sh
-`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)”`
+```bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)”
+```
 
 ### Install Chrome + Git
 `brew cask install google-chrome`
@@ -14,16 +16,20 @@ Source: https://brew.sh
 3. Lastpass gets installed
 
 ### Copy over .ssh dir
-`cp -r /Volumes/USB/.ssh .`
-`cd ~/.ssh`
-`chmod 700 .`
-`chmod 644 *.pub`
-`chmod 600 id_rsa ansible.pem chrisrowecom.pem chrowe.pem id_rsa_isovera id_rsa_old`
+```bash
+cp -r /Volumes/USB/.ssh .
+cd ~/.ssh
+chmod 700 .
+chmod 644 *.pub
+chmod 600 id_rsa ansible.pem chrisrowecom.pem chrowe.pem id_rsa_isovera id_rsa_old
+```
 
 ### Projects directory
-`cd`
-`mkdir Projects`
-`cd Projects`
+```bash
+cd
+mkdir Projects
+cd Projects
+```
 
 ![Screenshot of my shell prompt](https://i.imgur.com/EkEtphC.png)
 
